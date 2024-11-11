@@ -9,13 +9,15 @@
     "userInterfaceStyle": "automatic",
     "newArchEnabled": true,
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.ptstagingorg.testbuild52"
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/images/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.ptstagingorg.testbuild52"
     },
     "web": {
       "bundler": "metro",
@@ -36,6 +38,21 @@
     ],
     "experiments": {
       "typedRoutes": true
+    },
+    "extra": {
+      "router": {
+        "origin": false
+      },
+      "eas": {
+        "projectId": "af037005-c386-4be1-82a7-131e31f47465"
+      }
+    },
+    "owner": "pt-staging-org",
+    "runtimeVersion": {
+      "policy": "appVersion"
+    },
+    "updates": {
+      "url": "https://staging-u.expo.dev/af037005-c386-4be1-82a7-131e31f47465"
     }
   }
 }
